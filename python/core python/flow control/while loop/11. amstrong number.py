@@ -1,4 +1,4 @@
-# amstrong number <<< sum of cube of a number equals to that number
+# checking amstrong number or not <<< sum of cube of a number equals to that number
 #153 = (1^3)+(5^3)+(3^3)
 
 num=int(input("enter the number")) #153

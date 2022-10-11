@@ -4,7 +4,7 @@
 # super : to point parent(parent class ne refer cheyyan)
 
 
-class  Parent:
+class Parent:
     def properties(self):
         self.props={"gold":"2kg","car":"ertiga"}
         return self.props
