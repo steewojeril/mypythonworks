@@ -1,5 +1,5 @@
 # pass >>> it will do nothing
-for i in range(1,51):  #1,2,3,.........23,24   25 will not be printed
+for i in range(1,51):  #1,2,3,.........23,24   25 will be printed
     if(i==25):
         pass
     print(i)
