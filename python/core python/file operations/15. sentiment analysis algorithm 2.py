@@ -15,15 +15,3 @@ if t <= 0:
     print('negative')
 else:
     print('positive')
-
-    
-
-
-
-jjjj
-
-
-
-
-
-
