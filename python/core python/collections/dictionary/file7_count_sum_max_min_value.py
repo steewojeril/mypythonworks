@@ -8,7 +8,7 @@ print(dic.values())
 
 # WORD COUNT  (short method)
 # to print count of key provided from a dic  
-test_string="cat dog rabbit tiger elephant turtle"
+test_string="cat dog cat rabbit tiger elephant turtle"
 words_list=test_string.split(' ')                   #['cat', 'dog', 'rabbit', 'tiger', 'elephant', 'turtle']
 a={animals: words_list.count(animals) for animals in words_list}
 print(a)        #{'cat': 1, 'dog': 1, 'rabbit': 1, 'tiger': 1, 'elephant': 1, 'turtle': 1}
