@@ -3,6 +3,8 @@ master_string="abbcddeghgggt"
 check_word="get"
 # hint : wordcount
 # master_string nte count eduth vachu
+
+# method1
 dic={}
 res=""
 for i in master_string:
@@ -36,10 +38,9 @@ for i in ch:
             ch_word+=i
             match_char=match_char.replace(i,"",1)
             break
-if ch==ch_word:
-    print(True)
-else:
-    print(False)
+        
+print(ch==ch_word)
+
 
 
 
