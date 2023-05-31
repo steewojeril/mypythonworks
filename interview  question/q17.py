@@ -23,3 +23,23 @@ for char in check_word:
 print(res==check_word)
 
 
+# or  (my method)
+
+match_char='ajgkbmdfvmdosgjegn'
+ch='egg'
+
+
+ch_word=''
+for i in ch:
+    for j in match_char:
+        if i == j:
+            ch_word+=i
+            match_char=match_char.replace(i,"",1)
+            break
+if ch==ch_word:
+    print(True)
+else:
+    print(False)
+
+
+
