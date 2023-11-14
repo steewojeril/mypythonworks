@@ -8,3 +8,11 @@ maximum=max(marks)
 for j in lst:
     if j[1]==maximum:
         print(j[0],maximum)
+
+        # or  (this is effective method)
+maximum=0
+for n,m in lst:
+    if m>maximum:
+        maximum=m
+        name=n
+print(name,maximum)
