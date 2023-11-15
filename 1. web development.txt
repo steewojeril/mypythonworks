@@ -1,0 +1,31 @@
+# front end:
+displaying content :html
+style :css, bootstrap
+dynamic : javascript
+
+
+# backend
+data storing (database : mysql)
+process : python,(javascript)
+
+
+javascript can be used for both frond end and back end
+
+# web application: application which is always running on the server
+
+#django - framework
+webapplication development
+
+framework - is a predifined structure to make the webapplication easily managable  , securable
+it contains set of predefined functions and classes + set of rules
+
+framework of python : django,flask,oodo
+framework of java : spring, hiernate
+framework of c# : aps.net
+framework of php : wordpress jaravel
+framework of dart : flutter
+
+library: it contains set predefined functions and classes
+builtins functions() => print,min,input,max
+builtins class ==> append extend (lst class)
+
