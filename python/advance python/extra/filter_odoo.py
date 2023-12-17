@@ -7,7 +7,7 @@ for i in range(0,len(lt),2):
     if i==len(lt)-1:
         filter.append([lt[i]])
     else:
-        s=slice(i,i+2)
+        # s=slice(i,i+2)
         filter.append(lt[i:i+2])
 print(filter)
 

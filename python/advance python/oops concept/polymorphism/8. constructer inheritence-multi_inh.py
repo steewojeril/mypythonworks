@@ -1,14 +1,13 @@
 # constructer inheritence(multiple inheritence)
-# person [name,age,place]
-# employ [id,dep,salary]
-# student [roll,college]
-# student inherit person and employ
+# syntax :  class_name.mtd_name(arguments of parent class )
+
 
 class Person:
     def __init__(self,name,age,place):
         self.name=name
         self.age=age
         self.place=place
+    def 
 
 class Employee:
     def __init__(self,id,dep,salary):

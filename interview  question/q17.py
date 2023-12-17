@@ -36,7 +36,7 @@ for i in ch:
     for j in match_char:
         if i == j:
             ch_word+=i
-            match_char=match_char.replace(i,"",1)
+            match_char=match_char.replace(i,"",1)  #1 means count.  eg:if there is many 'g' in match string, how many 'g' we need to replace. by default all g will eliminate
             break
         
 print(ch==ch_word)

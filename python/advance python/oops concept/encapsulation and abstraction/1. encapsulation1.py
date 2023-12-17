@@ -4,12 +4,11 @@
 # athine assosiate cheythittulla data yeyum , athine operate cheyyunna mehods neyum oriu place il thanne ezhuthunnathine parayunnath
 
 #  here employee class << data(name and id) and methods(setvalue , read value) single unit aayi ezhuthunnath
-#  ithinu munn data members nammal outside the class aanu ezhuthiyirunnath
 
 class Employee:
     def __init__(self):
-        self.name="steewo"
-        self.id=13
+        self.name="steewo" #data member
+        self.id=13   #data member
     def readvalue(self):
         print(self.name,self.id)
 e1=Employee()
@@ -21,8 +20,10 @@ print(e1.name,e1.id) # we can access data/variables
 
 # access modifiers:-
 # public
-# protected  _  ==> its just like a warning but it can be accessed from anywhere
+# protected  _  ==> its just like a warning but it can be accessed from anywhere like public
 # private   __
 
 # by default all methods and data/variables are public
 # public :  can access methods and data/variables from everywhere
+# private : can access only inside the class, cant access outside the class(means inherited class ilum , direct aayi object. ennum paranj access cheyyanum pattilla)
+# but through public functions and through data mangling we can access it outside the class

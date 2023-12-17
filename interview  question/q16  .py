@@ -9,10 +9,15 @@ for j in lst:
     if j[1]==maximum:
         print(j[0],maximum)
 
-        # or  (this is effective method)
+        # or  
 maximum=0
 for n,m in lst:
     if m>maximum:
         maximum=m
         name=n
 print(name,maximum)
+
+# or 
+a=max(lst,key=lambda x:x[1])
+print(a)  #('anu', 67)
+print(a[0])

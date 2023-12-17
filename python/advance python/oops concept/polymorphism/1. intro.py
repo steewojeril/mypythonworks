@@ -1,7 +1,16 @@
-# method overloading
-# same method name , different number of argument << ingane varunna conditon
+# oops nte akathe polymorphism aanu parayunnath not python's
+# polymorphism <<  many forms
 
-#more number
+# polymorphism depends on method
+
+# polymorphism << oru mtd same peril varaanenkil enganeyaanu handle cheyyuka
+# polymorphism << if method is having same name how to handle this ?
+
+# 2 methods
+# method overloading <<< same method name , different number of argument << not supported in python
+# method overriding  <<< same method name , same number of argument << supports in python
+
+# method overloading 
 class Add:
     def sum(self,num1,num2):
         self.num1=num1
@@ -25,8 +34,6 @@ class Add1(Add):
 ob=Add1()
 ob.sum(1,2,3) # here overloading will work
 # ith work aakum
-
-
 
 
 

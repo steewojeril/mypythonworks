@@ -1,13 +1,11 @@
 # constructer inheritence(single inheritence)
 
-# class person <<< name age place
-# class student <<< roll dep college
-# student inherit person
-# saadha pole cheythatt(using method) thaazhe ulla steps cheyth nokk
+# In Python, constructors aren't inherited by default. 
+# bcoz __init__ calls when an object calls. in this example init of person will excecute only when person object is created
+# so to excecute __init__ of superclass while creating object of child cls(or while initializing ini of child)
+# super() is used
+# syntax :  super().mtd_name(arguments of parent class )
 
-# method ne constructer aaki matuka
-# child class nte method nte akath type arguments of parent class
-# for calling:-
 #  child class nte method nu akath ==> using super().__init__(arguments of parent class )
 class Person:
     def __init__(self,name,age,place):# this is a constructer

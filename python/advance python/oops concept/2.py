@@ -1,12 +1,7 @@
 # class
 
 # syntax
-
 # class Class_name:      (give first letter of Class name as capital)
-# class Students:
-
-
-# to create methods inside a class
 
 # methods - class nte akath nammal define cheyyuna function ne parayunnath
 class Person:
@@ -17,7 +12,7 @@ class Person:
 #
 # 'self' automatically varum
 # here 'reading' , 'writing'  are methods
-# self is an instance keyword (sherikkum ulla concept adutha python file il und)
+# self is an instance keyword . it refers to the current object
 # we can create multiple methods
 
 

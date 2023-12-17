@@ -1,5 +1,4 @@
 import re
-
 # []	A set of characters
 # \  to add special characters append this befoore the sp. char
 # {}	Exactly the specified number of occurrences
@@ -19,17 +18,17 @@ import re
 # \S	Returns a match where the string DOES NOT contain a white space character
 # \d	Returns a match where the string contains digits (numbers from 0-9)
 # \D	Returns a match where the string DOES NOT contain digits
-string='my phone number is 9567144225' # match phone number in this format
+string='my phone number is 9567144225' # ['9567144225'] match phone number in this format
 rule='\d{10}'
 a=re.findall(rule,string)
 print(a)
 
-string1='my phone number is (999)-333-7775' # match phone number in this format
+string1='my phone number is (999)-333-7775' # ['(999)-333-7775'] match phone number in this format
 rule='\(\d{3}\)\-\d{3}\-\d{4}'
 b=re.findall(rule,string1)
 print(b)
 
-string2='safjhldsjfl FY2021 Q1 was $5billion abcd FY2020 Q4 was $3biilion' # match the year and money and group it
+string2='safjhldsjfl FY2021 Q1 was $5billion abcd FY2020 Q4 was $3biilion' # [('2021 Q1', '5'), ('2020 Q4', '3')] match the year and money and group it
 rule = 'FY(\d{4} Q[1-4])[^\$]+\$(\d)'  # Updated regex pattern
 
 c=re.findall(rule,string2)
