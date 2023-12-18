@@ -1,5 +1,6 @@
 # constructer <<< object nte akath instance variable define/declare cheyyan vendi use cheyyunnath
-# __init
+# __init__ 
+# object create cheyyumbo automatically ith call aakum
 # class Person <<< name age place
 
 class Person:

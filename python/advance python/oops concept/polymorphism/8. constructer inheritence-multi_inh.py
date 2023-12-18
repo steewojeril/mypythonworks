@@ -7,7 +7,7 @@ class Person:
         self.name=name
         self.age=age
         self.place=place
-    def 
+  
 
 class Employee:
     def __init__(self,id,dep,salary):

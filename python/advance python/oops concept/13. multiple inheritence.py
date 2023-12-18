@@ -1,9 +1,10 @@
+# multiple inheritence
 # inherit more than one class
 # for this we need min 3 class in total
 
 class A:
     def printa(self):
-        print("insidde A")
+        print("inside A")
 class B:
     def printb(self):
         print("inside B")

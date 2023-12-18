@@ -1,25 +1,36 @@
-# methods to access private variable and method
-
-# name mangling
+# name mangling - method to access private variable and method outside the cls
 
 # syntax :
 # object._classname__privatevariablename
 # object._classname__privatemethodname
 
-class Employee:
+class Person:
     def __init__(self):
-        self.name="steewo" #public
-        self.id=13 # public
-        self.__accesscode=123 #privatte
-    def setvalue(self,name,id):
-        self.name=name
-        self.id=id
-    def readvalue(self):
-        print(self.name,self.id)
-        self.__readaccesscode()
-    def __readaccesscode(self):
-        print(self.__accesscode)
+        self.name="steewo" 
+        self.__pin=1234   #private var
+    def printp(self):
+        print("inside person")
+        print(self.name)
+        print(self.__pin)  
+        self._Person__read_pin()
+    def __read_pin(self):  #private mtd
+        print(self.__pin)
 
-e1=Employee()
-print(e1._Employee__accesscode)
-e1._Employee__readaccesscode()
+class Employee(Person):
+    def __init__(self):
+        Person.__init__(self) # employee nte obj create cheyyumbo thanne parent inte init execute aakan vendi. illenil athint obj create cheyyandi varum
+    def printe(self):
+        print(self.name)
+        print("inside employee")
+        super()._Person__read_pin()
+    
+p=Person()
+print(p._Person__pin)
+p._Person__read_pin()
+p.printp()
+
+
+e=Employee()
+print(e._Person__pin)
+e._Person__read_pin()
+e.printe()

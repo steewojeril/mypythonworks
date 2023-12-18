@@ -10,6 +10,9 @@ class Employee:
 
     def readaccesscode(self):
         print(self.__accesscode)
+# readaccesscode()  #inherited class il ingane access cheyyam
+# self.__accesscode #inherited class il ingane pattilla
+
 e1=Employee()
 e1.readvalue()
 print(e1.name,e1.id)
