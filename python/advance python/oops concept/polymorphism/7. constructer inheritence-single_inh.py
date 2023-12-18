@@ -1,5 +1,10 @@
 # constructer inheritence(single inheritence)
 
+# super()  refers parent
+# super().mtd explicitly calls the method from the parent class regardless of any overrides .parent thanne call aakuum
+# self.mtd calls the latest method.(if a mtd is overrided, that overrided cls will work)
+
+
 # In Python, constructors aren't inherited by default. 
 # bcoz __init__ calls when an object calls. in this example init of person will excecute only when person object is created
 # so to excecute __init__ of superclass while creating object of child cls(or while initializing ini of child)
