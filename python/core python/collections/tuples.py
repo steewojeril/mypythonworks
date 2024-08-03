@@ -27,3 +27,10 @@ print(tu3)
 # difference between list and tuple <<<
 # list is mutable
 # tuple is imutable
+
+# only 2 mtds 
+# count
+# index
+
+# advantage
+# since it is immutable , iteration is fast compared to list
