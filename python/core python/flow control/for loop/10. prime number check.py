@@ -15,3 +15,4 @@ if(flag>0):
 else:
     print(num,"is prime")
 
+# efficient: for i in range(2, int(math.sqrt(num)) + 1): if num is divisible by any number greater than its square root, it must also be divisible by a number smaller than its square root.

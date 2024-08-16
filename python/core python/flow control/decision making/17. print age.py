@@ -19,3 +19,17 @@ elif(cur_month>bir_month):
 else:
     print("your age is", (cur_year-bir_year)-1)
 
+# gpt
+cur_year = int(input("Enter current year: "))
+cur_month = int(input("Enter current month: "))
+cur_date = int(input("Enter current date: "))
+bir_year = int(input("Enter year of birth: "))
+bir_month = int(input("Enter month of birth: "))
+bir_date = int(input("Enter date of birth: "))
+
+if bir_month > cur_month or (bir_month == cur_month and bir_date > cur_date):
+    age = cur_year - bir_year - 1
+else:
+    age = cur_year - bir_year
+
+print("Age is", age)
