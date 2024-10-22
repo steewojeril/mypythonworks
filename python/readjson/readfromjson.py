@@ -1,5 +1,5 @@
 from json import * #jason enna module aanu ee functions okke ullath(load)
-with open("blog.json") as f:
+with open("python/readjson/blog.json") as f:
     data=load(f)
 print(data)
 # aa jason file ne motham angad load cheyyann cheyyunnath.(line by line aayittalla read cheyyunnath)

@@ -5,7 +5,7 @@ logical operators
 # XOR  ^
 
 #AND
-#true when both are true else false
+# Returns True if both operands are True. else false
 # 0 0 0
 # 1 0 0
 # 0 1 0
@@ -21,7 +21,7 @@ print(num1&num2)
 #AND   0 1 0 0  - binary of 4
 
 #OR
-#true when any one is true
+#Returns True if at least one operand is True.
 # 0 0 0
 # 0 1 1
 # 1 0 1
