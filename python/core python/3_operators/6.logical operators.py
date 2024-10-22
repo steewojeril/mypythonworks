@@ -1,4 +1,4 @@
-logical operators
+# logical operators
 
 # AND  &
 # OR   |
@@ -47,7 +47,7 @@ print(num1|num2)
 num1=6
 num2=7
 print(num1^num2)
-output 1
+# output 1
 
 # 6   0 1 1 0
 # 7   0 1 1 1
