@@ -11,22 +11,30 @@
 st=set()  #define using list function
 st1={1,23,2}
 
-# 2. hetrogenous data supported or not
-st2={10,15,'bigdata','python',100,True}
-print(st2)
-# it supports hetrogenous data
 
-# 3.insertion order is preserved or not
-# insertion order is not preserved
-
-# 4. duplicated values is allowed or not
-st3={2,3,4,True,'bigdata'}
-print(st3)
 # does not support duplicate values
 
-st4={1,2,3,4,True,'bigdata'}
-print(st4)  # here True will not print, bcoz set does not support duplicate values. as value of True is 1 and
-# the set contains another 1, only one 1 will be displayed
 
-# 5. mutable or imutable (updation of data)
-# set is mutable
+print(dir(set)) 
+st={1,2,3,4,5}
+print(st)
+# cant directly edit. .set is not intended for that purpose.
+
+st.add(88)  # to add element at end
+print(st)
+
+st.update([1,3,6,77]) # to add multiple elements 
+print(st)
+
+
+st.remove(77) # removes given element . but raises error if ele not present
+print(st)
+st.discard(77) # removes given element. dont raise error
+print(st)
+
+st.pop() # removes random element. raises error
+print(st)
+
+
+
+
