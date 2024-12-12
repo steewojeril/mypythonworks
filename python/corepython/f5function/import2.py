@@ -1,4 +1,4 @@
-from f5function.sample1 import *
+from sample1 import *
 # to run a python file  => python3 
 data=add(10,20)
 print(data)

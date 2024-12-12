@@ -1,5 +1,7 @@
-# A lambda function in Python is a small, anonymous(doesnt have a name) function that can have any number of arguments but only one expression. 
-
+'''
+A lambda function in Python is a small, anonymous(doesnt have a name) function 
+that can have any number of arguments but only one expression. 
+'''
 # lambda arguments: expression
 f=lambda num1,num2:num1+num2
 

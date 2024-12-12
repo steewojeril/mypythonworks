@@ -5,14 +5,15 @@ for i in range(2,101):
             break
     else:
         print(i,end=' ')
-#  if we provide else to for loop , else works when loop is not fully worked(if loop breaks in btw)
+print()
+#  if we provide else to for loop , it works if entire loop works completely without break
 # or 
         
 for i in range(2,101):
-    flag=0
+    flag=1
     for j in range(2,i):
-        if(i%j==0):
-            flag=1
+        if i%j==0:
+            flag=0
             break
-    if flag==0:
+    if flag == 1:
         print(i,end=' ')
