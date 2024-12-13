@@ -7,6 +7,7 @@ for i in range(2,101):
         print(i,end=' ')
 print()
 #  if we provide else to for loop , it works if entire loop works completely without break
+# similarly there is while-else
 # or 
         
 for i in range(2,101):

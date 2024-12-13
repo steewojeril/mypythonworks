@@ -21,7 +21,6 @@ for i in data1:
 print(dic)
 
 
-# Refer 'advance python' <<< 'extra' <<< 7. max and min from dictionary
 print("most frequent key word : ",max(dic,key=dic.get))
 
 

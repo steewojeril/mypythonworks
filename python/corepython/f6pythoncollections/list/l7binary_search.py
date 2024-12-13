@@ -10,24 +10,24 @@
 # . check mid-value is greater or smaller than the entered value
 # . change the start or end index accordingly
 
-lst=[6,5,65,45,87,21,22,1]
-lst.sort()  # lst=sorted(lst)
-print(lst)
-num=int(input("enter the number"))
+lst = [6, 5, 65, 45, 87, 21, 22, 1]
+num = int(input("Enter the number to search: "))
 
-low=0
-upp=len(lst)-1
-flag=0
-while(low<=upp):
-    mid=(low+upp)//2
-    if(num<lst[mid]):
-        upp=mid-1
-    elif(num>lst[mid]):
-        low=mid+1
-    else: # num==lst[mid]
-        flag=1
+# Sort the list
+lst1=sorted(lst)
+
+start = 0
+end = len(lst1) - 1
+
+while start <= end:
+    mid = (start + end) // 2  # Calculate mid in each iteration
+    if num < lst1[mid]:
+        end = mid - 1
+    elif num > lst1[mid]:
+        start = mid + 1
+    else:
+        ind=lst.index(lst1[mid]) #finding index in unsorted list
+        print(f'Found {lst1[mid]} at index {ind}')
         break
-if(flag>0):
-    print("element found")
 else:
-    print("element not found")
+    print("Number not found")

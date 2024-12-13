@@ -6,7 +6,7 @@ print(data)
 # lengthy procedure , this is traditional method
 
 # functional programming-modern method, to reduce the length of the programme
-# lambda
+# lambda 
 # map
 # filter
 # reduce
