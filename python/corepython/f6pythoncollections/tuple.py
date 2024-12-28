@@ -6,6 +6,9 @@ tu1=tuple()
 Use case: fast iteration bcoz immutable,so eay for python to optimize memmory.
 (datastructure: Array(fixed size))
 
+# difference between list and tuple <<<
+list is mutable
+tuple is imutable
 '''
 tu=(1,1,2,6)
 print(tu)
@@ -14,9 +17,8 @@ print(tu)
 
 print(tu.count(1))  # to count given element repetitions
 print(tu.index(6)) # to find the index of given element
-# ..............................................
 
-
-# difference between list and tuple <<<
-# list is mutable
-# tuple is imutable
+# .............................
+tuple1 = [(1, 'a'), (2, 'b')]  
+for num, alph in tuple1:
+    print(num , alph)

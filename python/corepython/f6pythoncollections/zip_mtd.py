@@ -10,10 +10,7 @@ list2 = ['a', 'b']
 
 zipped = zip(list1, list2)  #returns iterator object. so convert
 print(zipped)  # <zip object at 0x7dcc79a23600>
-print(list(zipped))  # Only pairs (1, 'a') and (2, 'b')    
+print(list(zipped))  # Only pairs (1, 'a') and (2, 'b')     or you can just iterate without converting it to list
 
 
 
-unzipped = [(1, 'a'), (2, 'b')]  # this should not be an zip object
-list1, list2 = list(unzipped)
-print(list1,list2)  # (1, 'a') (2, 'b')
