@@ -1,4 +1,4 @@
-# multilevel inheritence << inherit by levels
+# multilevel inheritence << a class inherits from a class that is already a subclass of another class.
 # c enna class nu b ne inherit cheyyunnu but b enna class a ne inherit cheyyunnund
 # so indirectly class a , class c ne inherit cheyyunnu
 

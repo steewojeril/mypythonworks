@@ -1,4 +1,4 @@
-# method overriding- it is a form of polymorphism
+# method overriding- it is a type of polymorphism
 #when to use:-
 # child nu child ntethaayittulla implimentation detail venamenkil, override cheyyam
 
@@ -14,7 +14,7 @@ class Child(Parent):
 
 ch=Child()
 ch.phone() # here parent nte 'phone method ne child override cheyyum'
-ch.car()   # here child nu car illa. so parent nte work aakum since it inferits parent class
+ch.car()   # here child nu car illa. so parent nte work aakum since it inherits parent class
 
 class A:
     def printa(self):

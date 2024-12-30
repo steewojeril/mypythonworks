@@ -3,7 +3,7 @@ Instance Variables:
    - Defined inside the `__init__` method.
    - These are specific to each object.
 
-Static Variables/Class var:
+Class var/Static Variables:
    - Defined inside the class (outside the `__init__` method).
    - These are shared by all objects.
    - If we change a static variable using `ClassName.var`, it changes for all objects.

@@ -41,3 +41,4 @@ ob.prints()
 # child class nte akath parent arguments kodukkuka
 # call inside object
 
+print(Student.__mro__)

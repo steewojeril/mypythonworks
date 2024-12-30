@@ -23,3 +23,4 @@ class Student:
 # Creating a Student object
 st = Student("Steewo", 20)
 st.show()
+# print(st.laptop.show())
