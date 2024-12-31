@@ -35,7 +35,6 @@ make_fly(bird)  # Output: Bird flies
 make_fly(plane) # Output: Plane flies
 
 
-
 # method overriding- it is a type of polymorphism
 #when to use:-
 # child nu child ntethaayittulla implimentation detail venamenkil, override cheyyam
