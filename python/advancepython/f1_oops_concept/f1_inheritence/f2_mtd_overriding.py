@@ -1,4 +1,7 @@
 '''
+Method Overriding: The child class can override methods from the parent class. 
+If needed, the parent class's method can be called using super().method_name().
+
 # Constructor and Method Inheritance
  
 Constructor Inheritance:
@@ -18,6 +21,9 @@ class Person:
     def printp(self):
         print("person:",self.name, self.age, self.place)
 
+    def greet(self):
+        print(f"Hello, I am {self.name} from {self.place}.")
+
 class Student(Person):  # Child class inheriting Person
     def __init__(self, name, age, place, roll, dep, college): # ivide init ulla karanam ith call akum else parent nte call aakum
         super().__init__(name, age, place)  # Call parent 
@@ -25,7 +31,9 @@ class Student(Person):  # Child class inheriting Person
         self.roll = roll
         self.dep = dep
         self.college = college
-    
+    def greet(self):
+        print(f"I am a student at {self.college}, and my roll number is {self.roll}.")
+
     def prints(self):
         print("Student:",self.roll, self.dep, self.college)
 
@@ -36,6 +44,8 @@ st = Student("Steewo", 24, "Thrissur", 42, 'Civil', 'Christ')
 st.prints()  # Output: 42 Civil Christ
 st.printp()  # Output: Steewo 24 Thrissur
 print(st.age)  # Output: 24 (inherited from Person)
+
+st.greet()
 
 
 # In multiple inheritance, if multiple classes define __init__ methods, using super() ensures that the __init__ methods are called in the correct method resolution order (MRO). 
