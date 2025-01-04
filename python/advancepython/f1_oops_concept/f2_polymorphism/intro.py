@@ -8,7 +8,8 @@ it allows the same method or function to behave differently based on the object 
 Types of Polymorphism in Python
 # method overloading <<< same method name , different number of argument << not supported in python
 # method overriding  <<< same method name , same number of argument << supports in python
-# Duck Typing : it focuses on an object's behavior, not its type.
+# Duck Typing : if it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck
+# it focuses on an object's behavior, not its type.(object)
     The make_fly() function doesn't care about whether the object passed to it is a Bird, a Plane, or something else. 
     All it cares about is whether the object can "fly" (i.e., whether it has a fly() method).
 '''

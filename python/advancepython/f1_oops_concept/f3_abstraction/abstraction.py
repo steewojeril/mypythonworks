@@ -1,4 +1,6 @@
 '''
+ABSTRACTION: showing only necessary details and hiding unnecessary deatails
+
 Abstraction allows you to define common features or methods that must be implemented by every subclass, 
 while the subclasses provide their own specific implementations of these features.
 
@@ -8,7 +10,7 @@ from abc import ABC, abstractmethod
 # Let's say every app must have these features.
 class AppFeatures(ABC):
     @abstractmethod
-    def brightness(self):
+    def brightness(self):  #(only declaration)
         pass  # Abstract method for brightness feature
 
     @abstractmethod

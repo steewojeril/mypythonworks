@@ -1,5 +1,5 @@
 '''
-OPERATOR OVERLODING:
+OPERATOR OVERLOA      D                                              DING:
 allows you to define or modify the behavior of standard operators (like +, -, *, ==, [], etc.)
 NOTE:
 a+b    ==>   a.__add__(b)    #actually this is happening. __add__ is method inside int class 
