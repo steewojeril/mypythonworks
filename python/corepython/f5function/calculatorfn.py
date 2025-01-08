@@ -8,11 +8,11 @@
 # read
 # num1 num2
 
-def add():
+def add() -> int: 
     sum=num1+num2
     print(sum)
 
-def sub():
+def sub()-> int:
     sub=num1-num2
     print(sub)
 def mul():

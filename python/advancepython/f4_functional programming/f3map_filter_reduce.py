@@ -1,5 +1,8 @@
 # map
 # filter
+# reduce
+# these all take other functions as arguments 
+squared = map(lambda x: x**2, numbers)
 
 '''
 MAP- Purpose: Applies a given fn to all items in an iterable and 
